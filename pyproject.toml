@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rag-api"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.11"
+uvicorn = "^0.34.0"
+loguru = "^0.7.3"
+python-dotenv = "^1.0.1"
+numpy = "^2.2.3"
+httpx = "^0.28.1"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
